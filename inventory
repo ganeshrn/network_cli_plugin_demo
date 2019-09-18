@@ -1,0 +1,4 @@
+localhost connection=local
+
+[xostestgroup]
+xos01 ansible_host=changeme ansible_ssh_pass=changeme

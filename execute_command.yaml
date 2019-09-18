@@ -1,0 +1,7 @@
+---
+- hosts: xostestgroup
+  gather_facts: no
+  tasks:
+  - name: execute command on remote host
+    cli_command:
+      command: show version
